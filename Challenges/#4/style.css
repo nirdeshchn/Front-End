@@ -1,0 +1,152 @@
+    *{
+        box-sizing: border-box;
+    }
+
+
+    body{
+        margin: 0px;
+        color: black    ;
+        background-size: contain;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+
+    header{
+    
+        height: 400px;
+        background-image: url(https://raw.githubusercontent.com/nirdeshchn/Stuffs/main/Concept_art_15.jpg);
+        text-align: left;
+        background-size: cover;
+        padding: 40px;
+        background-position: center;
+        color: bisque;
+
+    }
+
+
+    header p{
+        
+        color: rgb(144, 10, 10);
+        line-height: 50px;
+        font-size: 3em;
+    
+    }
+
+
+
+
+    .dragon{
+        float: left;
+        margin-left: 300px;
+        margin-top: -90px;
+        width: 500px;
+        filter: drop-shadow(0px 5px 50px rgb(208, 9, 9));
+    }
+
+
+
+    a:hover{
+        font-size: 30px;
+        color: blue;
+    }
+
+    nav{
+        font-size: 40px;
+        padding: 0px;
+        margin: 0px;
+        text-align: center;
+        list-style: none;
+        text-decoration:none;
+        color: bisque;
+    }
+
+    .nav a{
+        display:inline block;
+        padding:10%;
+
+    }
+
+    /* Navigation bar lai sticky ma rakhna top ma 0 ni hunu parne raixa */
+
+
+    .nav{
+        position: sticky;
+        top: 0;
+        padding: 20px;
+        background-color: black;
+    }
+
+
+    section{
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    section.sec2{
+        background-color:lightcyan;
+    }
+
+    section img{
+        margin:50px;
+        width: 30%;
+        box-shadow: 7px 5px 2px black;
+    }
+
+    h2:hover{
+        color: blue;
+        font-size: larger;
+    }
+
+
+    div.first {
+    
+        position:static;
+        text-align: left;
+    
+
+    }
+
+
+    div.second{
+        text-align: center;
+        position:relative;
+        float: none;
+        margin-top: -90px;
+    }
+
+
+
+    footer{
+      
+        text-align: center;
+        color: #ffd8ac;
+        padding: 30px;
+        font-size: 1.2em;
+    }
+
+    footer a img{
+        padding:20px;
+        width: 200px;
+        display:inline;
+    }
+
+
+    @media all and (max-width: 720px){
+        header{
+          text-align: center;
+          font-size: 1.7em;
+       
+     }
+    
+        .dragon {
+          padding: 17px;
+          width: 150px
+         
+    }
+        nav a{
+          font-size: 1.2em;
+    }
+        a:hover{
+        font-size: 1.4em;
+     
+    }

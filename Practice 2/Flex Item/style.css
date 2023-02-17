@@ -1,0 +1,98 @@
+*{
+    background-color: rgb(105, 212, 212);
+}
+
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    padding: 0 20px 30px 0;
+
+}
+
+
+
+
+
+
+#flex-item-1{
+
+
+    /* To increaser the width of certain items in flex we use:-
+
+    flex-basis: 200px;
+    
+    */
+
+    background-color: antiquewhite;
+    
+}
+
+
+
+#flex-item-2{
+
+/* We use it to put it into the defined order of the box:- 
+    order: 3;
+
+    */
+
+
+
+    /* We use it to increase the width relatively other boxes:- 
+    flex-grow: 1;
+
+    */
+
+
+
+    /* We use it to decrease the width relatively other boxes */
+
+    /* flex-shrink: 2; */
+
+    background-color: blue;
+}
+
+
+#flex-item-3{
+    background-color: burlywood;
+    
+}
+
+
+#flex-item-4{
+
+/* Flexing for growing, shrinking and basis in a single line. */
+    /* flex: 3 2 250px; */
+    background-color: brown;
+
+}
+
+
+
+.flexcontainer{
+
+    border: 3px solid green;
+    display:flex;
+    /* align-content:space-between; */
+    /* flex-wrap: wrap; */
+}
+
+
+
+/* Here is the styling for the box */
+
+.flex-item{
+    border: 3px solid rgb(92, 60, 80);
+    width: 75px;
+    /* height: 75px; */
+    border-radius: 10px;
+    background-color: rgb(208, 178, 184);
+    font-size: 15px;
+    color: rgb(4, 4, 4);
+    line-height: 2.5;
+
+}
+
+
+

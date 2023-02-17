@@ -1,0 +1,58 @@
+      img.t {
+        width: 70px;
+        height: 80px;
+        float: left;
+      }
+
+
+      img.d{
+        width: 70px;
+        height: 80px;
+        float: right;
+      }
+
+      img.f{
+        width: 70px;
+        height:80px;
+        float: left;
+      }
+      
+
+      body {
+        font-size: 20px;
+        background-color: aquamarine;
+      }
+
+      .div1 {
+        background-color: aqua;
+        padding: 50px;
+        border: 3px solid greenyellow;
+        margin: 10px;
+      }
+
+      .div2 {
+        background-color: aqua;
+        padding: 45px;
+        border: 3px solid greenyellow;
+        margin: 10px;
+      }
+
+      .div3 {
+        background-color: aqua;
+        padding: 50px;
+        border: 3px solid greenyellow;
+        margin: 10px;
+      }
+
+      div p {
+        margin-left: 5em;
+      }
+
+
+
+      .icon s{
+
+        margin-top: 40px;
+        position: relative;
+
+      }

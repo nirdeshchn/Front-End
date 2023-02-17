@@ -1,0 +1,15 @@
+table,tr,th,td{
+    border: 3px solid rgb(10, 15, 4);
+    border-collapse: collapse;
+    padding: 10px;
+    border-spacing: 5px;
+}
+
+
+
+th{
+    background-color: blue;
+}
+td{
+    background-color: bisque;
+}

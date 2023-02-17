@@ -1,0 +1,67 @@
+
+
+
+
+
+@media screen and (min-width:912px){
+    div{
+    
+        margin: 0px;
+        height: 30px;
+        width: 10%;
+        padding:40px;
+        padding-left: 10%;
+        background-color: aquamarine;
+        float:left;
+        border: 3px solid black;
+        border-radius: 10px;
+        
+    }  
+
+}
+
+
+@media screen and (max-width:911px) and ( min-width:656px){
+    div{
+
+        margin: 0px;
+        height: 30px;
+        width: 33%;
+        padding:40px;
+        padding-left: 10%;
+        background-color: aquamarine;
+        float:left;
+        border: 3px solid black;
+        border-radius: 10px;
+
+
+    }}
+
+
+    
+@media screen and (max-width:655px){
+    div{
+
+        margin: 0px;
+        height: 30px;
+        width: 99%;
+        padding:40px;
+        padding-left: 10%;
+        background-color: aquamarine;
+        float:left;
+        border: 3px solid black;
+        border-radius: 10px;
+
+
+    }}
+
+
+
+
+    
+
+
+header h1{
+    text-align: center;
+    position: relative;
+}

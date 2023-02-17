@@ -1,0 +1,57 @@
+
+*{
+  size: 200%;
+}
+
+
+
+
+
+p,a {
+  stroke: aquamarine; font-size: x-large;
+  color: rgb(78, 60, 95);
+}
+
+
+li{
+  list-style: square;
+}
+
+
+
+.hero{
+  color: brown; font-weight: bolder;
+}
+
+a.hero{
+  color: aliceblue;
+}
+
+
+
+
+li em {
+  color: rgb(3, 231, 45);
+}
+
+
+a:hover{
+  color: blue; text-decoration: none;
+}
+
+#damn {
+  color: bisque;
+}
+
+
+
+li[class]{
+  font-size: small;
+}
+
+
+
+
+the styling in p tag doesn't affect the color of text inside <a> tag because it is anchor tag so we have to select it seperately.
+
+
