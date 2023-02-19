@@ -1,0 +1,279 @@
+.flex1,.flex2{
+    display: flex;
+    flex-direction: row;
+    margin: 90px;
+}
+
+
+.flex1{
+    margin: 50px;
+    margin-left:150px;
+}
+
+
+
+#paragraph1,#paragraph2,#paragraph3,#paragraph4,#paragraph5,#paragraph6{
+    padding: 10px;
+}
+
+/* For the first division */
+
+.indi-1{
+    border: 3px solid blue;
+    border-radius: 10px;
+    height:700px;
+    width:300px;
+    margin: 50px;
+    box-shadow: 5px 10px 0px rgb(112, 102, 102);
+}
+
+.img1{
+    margin-left: 25px;
+    width: 250px;
+}
+
+.heading1{
+    text-align: center;
+}
+
+
+.button1{
+    margin-top: 10px;
+    font-size: 30px;
+    margin-left: 50px;
+    color: slategray;
+    box-shadow: 5px 0px 5px rgb(112, 102, 102);
+}
+
+/* For second division */
+
+.img2   {
+    width: 250px;
+    margin-left: 25px;
+}
+
+.indi-2{
+    border: 3px solid rgb(119, 119, 172);
+    border-radius: 10px;
+    height:900px;
+    width:300px;
+    margin: 50px;
+    box-shadow: 5px 10px 0px rgb(112, 102, 102);
+}
+
+.heading2{
+    text-align: center;
+}
+
+
+
+.button2{
+    margin-top: 25px;
+    font-size: 30px;
+    margin-left: 50px;
+    color: slategray;
+    box-shadow: 5px 0px 5px rgb(112, 102, 102);
+}
+
+
+
+
+
+/* for the third division */
+
+.img3{
+    width: 250px;
+    margin-left: 25px;
+}
+
+
+.indi-3{
+    border: 3px solid blue;
+    border-radius: 10px;
+    height:480px;
+    width:300px;
+    margin: 50px;
+    box-shadow: 5px 10px 0px rgb(112, 102, 102);
+}
+
+.heading3{
+    text-align: center;
+}
+
+
+
+.button3{
+    margin-top: 10px;
+    font-size: 30px;
+    margin-left: 50px;
+    color: slategray;
+    box-shadow: 5px 0px 5px rgb(112, 102, 102);
+}
+
+
+/* Third division ends here */
+
+
+
+/* Fourth division starts here */
+
+.flex2{
+    margin: 50px;
+    margin-left:150px;
+}
+
+
+.indi-4{
+    border: 3px solid blue;
+    border-radius: 10px;
+    height:500px;
+    width:300px;
+    margin: 50px;
+    box-shadow: 5px 10px 0px rgb(112, 102, 102);
+}
+
+.img4{
+    margin-left: 25px;
+    width: 250px;
+}
+
+.heading4{
+    text-align: center;
+}
+
+
+.button4{
+    margin-top: 10px;
+    font-size: 30px;
+    margin-left: 50px;
+    color: slategray;
+    box-shadow: 5px 0px 5px rgb(112, 102, 102);
+}
+
+
+
+/* Fourth division ends here */
+
+
+/* Fifth division starts here */
+.indi-5{
+    border: 3px solid blue;
+    border-radius: 10px;
+    height:520px;
+    width:300px;
+    margin: 50px;
+    box-shadow: 5px 10px 0px rgb(112, 102, 102);
+    
+}
+
+.img5{
+    margin-left: 25px;
+    width: 250px;
+}
+
+.heading5{
+    text-align: center;
+}
+
+
+
+.button5{
+    margin-top: 10px;
+    font-size: 30px;
+    margin-left: 50px;
+    color: slategray;
+    box-shadow: 5px 0px 5px rgb(112, 102, 102);
+}
+
+
+/* Fifth division ends here */
+
+
+/* Sixth division starts here */
+.indi-6{
+    border: 3px solid blue;
+    border-radius: 10px;
+    height:550px;
+    width:300px;
+    margin: 50px;
+    margin-top: 10px;
+    box-shadow: 5px 10px 0px rgb(112, 102, 102);
+
+}
+
+.img6{
+    margin-left: 25px;
+    width: 250px;
+}
+
+.heading6{
+    text-align: center;
+}
+
+
+
+.button6{
+    margin-top: 20px;
+    font-size: 30px;
+    margin-left: 50px;
+    color: slategray;
+    box-shadow: 5px 0px 5px rgb(112, 102, 102);
+}
+
+
+
+/* Sixth division ends here */
+
+
+
+.button1:hover{
+    color: rgb(30, 95, 120);
+    cursor:grab;
+    background-color: rgb(61, 199, 189);
+}
+    
+
+
+.button2:hover{
+    color: rgb(30, 95, 120);
+    cursor:grab;
+    background-color: rgb(61, 199, 189);
+
+}
+    
+
+
+.button3:hover{
+    color: rgb(30, 95, 120);
+    cursor:grab;
+    background-color: rgb(61, 199, 189);
+
+}
+    
+
+
+.button4:hover{
+    color: rgb(30, 95, 120);
+    cursor:grab;
+    background-color: rgb(61, 199, 189);
+
+}
+    
+
+
+.button5:hover{
+    color: rgb(30, 95, 120);
+    cursor:grab;
+    background-color: rgb(61, 199, 189);
+
+}
+    
+
+
+.button6:hover{
+    color: rgb(30, 95, 120);
+    cursor:grab;
+    background-color: rgb(61, 199, 189);
+
+}
+    
