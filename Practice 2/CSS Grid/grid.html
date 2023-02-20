@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout</title>
+
+
+    <style>
+        .container{
+            display: grid;
+            /* grid-template-columns: 200px 100px 200px; */
+            /* grid-template-columns: 1fr 1fr 2fr; */
+            /*Fr meaning equal fractions  */
+            /* grid-template-columns: repeat(2, 3fr); */
+            grid-gap: 40px;
+            /* It is used to limit the size of box */
+            /* grid-auto-columns: 600px; */ 
+
+            grid-auto-rows: minmax(200px, auto);
+            /* Grid auto row minmax for minimum size and maximum size for the selected grid  */
+
+            grid-template-columns: repeat(auto-fill,minmax(100px,1fr));
+
+            /* We can use grid-template-columns: repeat(auto-fill,minmax(200px,1fr)) to make the responsive grid system which reduces the number of grids as the screen decreases its size. */
+        }
+        .items{
+            background-color: lightcoral;
+            border: 3px green solid;
+            border-radius: 3px;
+        }
+
+                 
+/*         
+        #item-2{
+            grid-row-start:5;
+            grid-row-end:2;
+
+        }
+*/
+        #item-1{
+            grid-row-start: 1;            
+            grid-row-end: 3;  
+        }
+        #item-1{
+            grid-column-start: 1;            
+            grid-column-end: 3;
+            
+            border: 3px solid chocolate;
+        }
+
+        .item1-container{
+            display: grid;
+        }
+
+    </style>
+    <link rel="stylesheet" href="grid.css">
+</head>
+<body>
+    <div class="container">
+        <div class="item1-container" id="item-1">
+            <div class="nested-item">Dabbe mein dabba 1</div>
+            <div class="nested-item">Dabbe mein dabba 2</div>
+            <div class="nested-item">Dabbe mein dabba 3</div>
+        </div>
+        <div class="items" id="item-2">Dabba 2</div>
+        <div class="items">Dabba 3</div>
+        <div class="items">Dabba 4</div>
+        <div class="items">Dabba 5</div>
+    </div>
+
+
+</body>
+</html>

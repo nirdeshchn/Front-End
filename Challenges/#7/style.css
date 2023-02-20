@@ -1,0 +1,41 @@
+.container{
+    padding:20px;
+    display: flex;
+    flex-direction: row;
+    background-color: chocolate;
+}
+
+.navigation{
+    width: 150%;
+    background-color: aquamarine;
+    height: 90vb;
+    padding: 10px;
+
+
+}
+
+.flexcontainer{
+    flex-direction: column;
+    display: flex;
+    width:300%;
+    background-color:blueviolet ;
+    padding: 10px;
+    height: 100%;
+}
+
+
+.header{
+    background-color: brown;
+    height: 30vb;
+}
+
+.body{
+    background-color: chartreuse;
+    height: 30vb;
+}
+
+
+.footer{
+    background-color: lightblue;
+    height: 30vb;
+}
