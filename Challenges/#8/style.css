@@ -1,0 +1,21 @@
+.container {
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+    height: 90vb;
+    grid-gap: 20px;
+}
+
+.child{
+
+    display: grid;
+    background-color: rgb(140, 211, 33);
+    border: 3px solid rgb(243, 243, 243);
+}
+
+.item{
+    display: grid;
+    text-align: center;
+    
+    border: 4px solid rgb(241, 241, 241);
+    color: aliceblue;
+}
