@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boucing NC</title>
+</head>
+ 
+<style>
+    h2{
+        animation: bouncing 0.5s ease 0s infinite alternate both;
+        background-color: darkblue;
+        border-radius: 50%;
+        display: inline-block;
+        color: aliceblue;
+        cursor: grab;
+        font-size: 3rem;
+        padding: 10px 10px;
+        font-weight:lighter;
+        letter-spacing: 0.5em;
+        position: relative;
+        text-decoration: none;
+        text-transform: uppercase;
+        vertical-align: top;
+
+        margin:50vh 50% auto;
+    }
+
+    @keyframes bouncing{
+        0%{
+            bottom: 0;
+            box-shadow: 0 0 5px rgb(0, 0, 0, 0.5);
+        }
+
+/* The 0,0,0,(0)
+here the 0 inside the bracket is the transparency part. */
+        100%{
+            bottom: 100px;
+            box-shadow: 0 50px 50px rgba(14, 77, 223, 0.9)
+        }
+
+    }
+
+
+
+</style>
+<body>
+
+    <h2>nC</h2>
+
+    
+</body>
+</html>
