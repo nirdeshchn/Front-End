@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-size: larger;
+    background-color:#7289da;
+}
+
+h1 {
+    color: whitesmoke;
+  }
+
+  h2 {
+    color: whitesmoke;
+  }
+
+
+  div a{
+    background-color: black;
+  }
+
+
+  
